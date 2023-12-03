@@ -1,0 +1,35 @@
+This is world of Leo
+
+AWS : NOTES 
+
+As an AWS Cloud DevOps Engineer, my main responsibilities include automating cloud infrastructure provisioning, writing automation in infrastructure configuration languages like Chef and Ansible, deploying and operating apps and services using container technologies like Docker and Kubernetes, and providing daily support for various components of continuous integration pipelines for different applications. 
+strong familiarity with version control systems like Git, build automation technologies like maven and gradle, and continuous integration tools like Jenkins. Java, Python, and Shell have been my main scripting languages.
+I've been a key player in helping companies navigate their cloud transformation journeys for the entirety of my career. 
+I've managed teams that have moved infrastructure and on-premises apps to AWS, improving flexibility, reducing costs, and increasing agility.'ve used Infrastructure as Code technologies, such as Terraform and AWS CloudFormation, to automate cloud resource provisioning and administration.I have a lot of experience designing AWS systems with scalability, high availability, and security in mind. This involves creating serverless architectures and multi-tier apps. To protect cloud resources,
+I've worked with AWS Key Management Service (KMS), AWS Identity and Access Management (IAM), and other security tools.I have used AWS Lambda, API Gateway, and other AWS technologies to develop serverless applications.I have experience with AWS products such as AWS CodeCommit and AWS CodePipeline, and I am well-versed in DevOps Tools .
+
+
+
+
+AZURE: 
+Involved in migrating on-premises workloads to cloud Provided 3 tier, I managed service support for client dev, test, production azure environments. Used AD connect to sync on-premises windows server active directory to azure active and trouble shoot azure resources. Also implemented network traffic rules and access control list for virtual network in Microsoft azure cloud service platform. I have experience to orchestrate the jobs to and from Azure automation, I have the experience in writing the scripts in the Perl and shell script language for managing the various enterprise environments.  
+My primary tasks in current project:   
+• In my project I Configured Border gateway protocol to enable ExpressRoute connections between on premises data centers and Azure cloud. 
+• And I Designed Network Security Groups (NSGs) to control inbound and outbound access to network interfaces (NICs), VMs and subnets.  
+• And I Utilized Azure Site Recovery, PowerShell and Microsoft Virtual Machine Convertor for on premises to cloud migrations. 
+• Exposed Virtual machines and cloud services in the VNets to the Internet using Azure External Load Balancer.  
+• I Provided high availability for IaaS VMs and PaaS role instances for access from other services in the VNet with Azure Internal Load Balancer.  
+• Implemented high availability with Azure Classic and Azure Resource Manager deployment models. 
+• I Involved in automation of Azure Virtual Networks, Network Security Groups and access control rules.  
+  • I Setup the Azure Virtual Appliances (VMs) to meet security requirements as software-based appliance functions (firewall, WAN optimization) 
+• I Involved in migrating SQL Server databases to SQL Azure Database using SQL Azure Migration Wizard and then Deployed application to Azure Cloud.   
+
+
+
+
+Kubernetes:
+I have supported to 1000 nodes myself around 110  odd odes and our team like close 3000 nodes prod even app ranges from e commerce and billing systems and to sort of analytics, and tab and bi services and also redshift that is like very transactional system. I helped scale and from architecture prospective I have worked on sound arch design like spreading our infras across region and availability jones like  dns policies  that would do health checks config in regional level, if infar in one region fails that if auto dns fails it works through the data centers then any other region and also auto scaling for various types of app making sure auto scaling would take care of occasional scale or traffic of infra. We have 8 restful services that have couple of replicas each that are running  in our system and multiple clusters had been set, so we have 8 restful services running on that and planning to have one leveraging more and planning on strategy of utilizing one of our bare metal legacy hardware to create some clusters using kubernetes  and also leveraging azure cloud  for to some of these services. There are a couple of services that kubernetes comes with and one of them is services path in the kuber cluster and then flat networking space that use ip inside the pods inside the cluster. we will be able to communicate with multiple nodes. So we can achieve good communication with in the pods.  
+
+Ansible:
+ I have been using it for Orchestration of Deployments on various servers. We write Playbooks and modules here that would automate various things and in playbooks. We have inventory file section, where we specify ansible servers that are accessible to ansible. Basically we scale up using the scipts on cloud and we have inventories showing up, and what we have written in this playbooks for installing various packages like setting up ssh with l configuration on this package and you can use this specified task. These are all yaml files so we can specify what kind of packages and hosts and we used lot of centos and vms.  We are using yum for installations, that have steps for installing tasks and steps that would configure the files based on conditions. I would specify files the dynamically based on various conditions you can trigger various things and yaml files, we have couple of yaml files and all of these are checked into github. 
+
